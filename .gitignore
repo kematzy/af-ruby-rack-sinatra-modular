@@ -1,0 +1,6 @@
+# ignore vendored gems
+vendor/
+
+# ignore the Gemfile.lock
+Gemfile.lock
+
