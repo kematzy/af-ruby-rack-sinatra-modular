@@ -1,0 +1,14 @@
+---
+applications:
+  .:
+    name: af-ruby-rack-sinatra-modular
+    framework:
+      name: rack
+      info:
+        mem: 128M
+        description: Rack Application
+        exec: 
+    infra: ap-aws
+    url: ${name}.${target-base}
+    mem: 128M
+    instances: 1
